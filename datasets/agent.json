@@ -1,0 +1,53 @@
+{
+  "description": "Helping you find your new home in Singapore",
+  "language": "en",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "aide-5b7ab",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "40537706-1beb-4c64-8eb8-6ab2c2216389",
+      "2a42c1a8-efcb-49c7-a53a-6cb516b0c8cd"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Hong_Kong",
+  "webhook": {
+    "url": "https://us-central1-aide-5b7ab.cloudfunctions.net/dialogflowFirebaseFulfillment",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": true,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [
+    "projects/aide-5b7ab/knowledgeBases/MTcxMTQ2NjM3NDY0MjYzNzIwOTY",
+    "projects/aide-5b7ab/knowledgeBases/NDgxMDgyOTU2NDQ1MDE3NzAyNA",
+    "projects/aide-5b7ab/knowledgeBases/MzQ4MDAxNTg3NDU2MjE5NTQ1Ng",
+    "projects/aide-5b7ab/knowledgeBases/ODYxMTcyNjkxMjQ2MjUyMDMy",
+    "projects/aide-5b7ab/knowledgeBases/MTkwNjAwNzgwNDc5NjIwNzEwNA"
+  ],
+  "knowledgeServiceConfidenceAdjustment": -0.3,
+  "dialogBuilderMode": false
+}
